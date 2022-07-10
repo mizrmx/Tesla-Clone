@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face 
+{
+    font-family: "Gotham Black";
+    src: url(../public/Gotham_Book.otf);
+}
+
+*
+{
+    font-family: "Gotham Black", sans-serif;
+}
