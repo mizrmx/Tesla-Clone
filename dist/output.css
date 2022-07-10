@@ -743,6 +743,10 @@ video {
   background-image: url('../public/tesla-hp-6.avif');
 }
 
+.bg-\[url\(\'\.\.\/public\/tesla-hp-7\.avif\'\)\] {
+  background-image: url('../public/tesla-hp-7.avif');
+}
+
 .bg-cover {
   background-size: cover;
 }
