@@ -558,13 +558,62 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .ml-8 {
   margin-left: 2rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-\[400px\] {
+  margin-top: 400px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-\[300px\] {
+  margin-top: 300px;
+}
+
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
+.mt-\[250px\] {
+  margin-top: 250px;
+}
+
+.mt-\[280px\] {
+  margin-top: 280px;
+}
+
+.mt-\[270px\] {
+  margin-top: 270px;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
 }
 
 .flex {
@@ -579,8 +628,16 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-32 {
   width: 8rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .flex-1 {
@@ -591,8 +648,49 @@ video {
   flex-grow: 1;
 }
 
+@-webkit-keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+.animate-bounce {
+  -webkit-animation: bounce 1s infinite;
+          animation: bounce 1s infinite;
+}
+
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-end {
@@ -607,8 +705,38 @@ video {
   justify-content: space-between;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/public\/tesla-hp-1\.avif\'\)\] {
   background-image: url('../public/tesla-hp-1.avif');
+}
+
+.bg-\[url\(\'\.\.\/public\/tesla-hp-2\.avif\'\)\] {
+  background-image: url('../public/tesla-hp-2.avif');
+}
+
+.bg-\[url\(\'\.\.\/public\/tesla-hp-3\.avif\'\)\] {
+  background-image: url('../public/tesla-hp-3.avif');
+}
+
+.bg-\[url\(\'\.\.\/public\/tesla-hp-4\.avif\'\)\] {
+  background-image: url('../public/tesla-hp-4.avif');
+}
+
+.bg-\[url\(\'\.\.\/public\/tesla-hp-5\.avif\'\)\] {
+  background-image: url('../public/tesla-hp-5.avif');
 }
 
 .bg-cover {
@@ -633,8 +761,24 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .font-bold {
@@ -644,6 +788,26 @@ video {
 .text-tesla-dark {
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+.text-\[\#5c5d61\] {
+  --tw-text-opacity: 1;
+  color: rgb(92 93 97 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @font-face 
@@ -669,6 +833,29 @@ video {
 .hover\:bg-slate-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mt-\[530px\] {
+    margin-top: 530px;
+  }
+
+  .md\:mt-\[300px\] {
+    margin-top: 300px;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1280px) {
