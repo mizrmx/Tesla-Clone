@@ -777,6 +777,10 @@ video {
   padding-top: 7rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -787,6 +791,10 @@ video {
 
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .font-bold {
@@ -811,6 +819,11 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-neutral-700 {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .underline {
